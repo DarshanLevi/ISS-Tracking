@@ -1,0 +1,146 @@
+/* :root {
+  --card-height: 65vh;
+  --card-width: calc(var(--card-height) / 1.5);
+} */
+
+body {
+  background-color: rgb(96, 124, 169) !important;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 6rem;
+  box-sizing: border-box;
+}
+
+
+.first {
+  color: rgb(28, 49, 84);
+  font-family: "Titan one";
+  padding-bottom: 4rem;
+  font-size: 44px;
+}
+
+.lat_lon{
+  color: rgb(216, 196, 182);
+  font-size: 24px;
+  font-family: "Titan One";
+ 
+}
+
+p.zone_id {
+  color: rgb(245, 239, 231);
+  font-size: 44px;
+  font-family: "Titan One";
+}
+
+.code {
+  font-size: 36px;
+  color: rgb(85, 48, 124);
+  font-family: "Titan One";
+  margin-bottom: 20px;
+}
+
+
+/* body {
+  min-height: 100vh;
+  background: #404969;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  box-sizing: border-box;
+} */
+
+/* a {
+  color: #3d4c80;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 2rem;
+} */
+
+
+/* .card {
+  background: url("../images/whisper-img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: var(--card-width);
+  height: var(--card-height);
+  padding: 3px;
+  position: relative;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  font-size: 1.5em;
+  color: rgb(88 199 250 / 0%);
+  font-family: "Gloria Hallelujah", cursive;
+} */
+
+/* .card:hover {
+  color: rgb(88 199 250 / 100%);
+  transition: color 1s;
+}
+.card:hover:before,
+.card:hover:after {
+  animation: none;
+  opacity: 0;
+}
+
+.card::before {
+  content: "";
+  width: 104%;
+  height: 102%;
+  border-radius: 8px;
+  background-image: linear-gradient(
+    var(--rotate),
+    #5ddcff,
+    #3c67e3 43%,
+    #4e00c2
+  );
+  position: absolute;
+  z-index: -1;
+  top: -1%;
+  left: -2%;
+  animation: spin 2.5s linear infinite;
+}
+
+.card::after {
+  position: absolute;
+  content: "";
+  top: calc(var(--card-height) / 6);
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  transform: scale(0.8);
+  filter: blur(calc(var(--card-height) / 6));
+  background-image: linear-gradient(
+    var(--rotate),
+    #5ddcff,
+    #3c67e3 43%,
+    #4e00c2
+  );
+  opacity: 1;
+  transition: opacity 0.5s;
+  animation: spin 2.5s linear infinite;
+}
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
+
+@keyframes spin {
+  0% {
+    --rotate: 0deg;
+  }
+  100% {
+    --rotate: 360deg;
+  }
+} */
