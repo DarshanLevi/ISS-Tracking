@@ -1,13 +1,30 @@
-// HINTS:
-// 1. Import express and axios
+import express from "express";
+import axios from "axios";
 
-// 2. Create an express app and set the port number.
+const app = express();
+const PORT = process.env.PORT || 3000;
 
-// 3. Use the public folder for static files.
+app.use(express.static("public"));
 
-// 4. When the user goes to the home page it should render the index.ejs file.
+app.get("/", async (req, res) => {
+    try {
+      const { data: { latitude, longitude } } = await axios.get("https://api.wheretheiss.at/v1/satellites/25544");
+      const { data } = await axios.get(`https://api.wheretheiss.at/v1/coordinates/${latitude},${longitude}`);
+  
+      res.render("index.ejs", {
+        lat_id: data.latitude,
+        lon_id: data.longitude,
+        zone_id: data.timezone_id,
+        country_code: data.country_code === "??" ? "Somewhere in the Ocean" : data.country_code,
+      });
+    } catch (error) {
+      console.error(error.response?.data || error.message);
+      res.status(500).send("Error fetching ISS data");
+    }
+  });
+  
 
-// 5. Use axios to get a random secret and pass it to index.ejs to display the
-// secret and the username of the secret.
 
-// 6. Listen on your predefined port and start the server.
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
