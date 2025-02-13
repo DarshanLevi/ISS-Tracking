@@ -15,7 +15,7 @@ app.get("/", async (req, res) => {
         lat_id: data.latitude,
         lon_id: data.longitude,
         zone_id: data.timezone_id,
-        country_code: data.country_code === "??" ? "Somewhere in the Ocean" : data.country_code,
+        country_code: data.country_code === "??" ? "Somewhere over the ocean" : data.country_code,
       });
     } catch (error) {
       console.error(error.response?.data || error.message);
