@@ -86,29 +86,29 @@ p.zone_id {
   }
 
   .first {
-    font-size: 40px; 
+    font-size: 25px; 
   }
 
   .highlight {
-    font-size: 40px; 
+    font-size: 25px; 
   }
 
   .lat {
-    font-size: 21px; 
+    font-size: 17px; 
     margin-bottom: -2.5px;
   }
 
   p.zone_id {
-    font-size: 46px; 
+    font-size: 30px; 
   } 
 
   .code {
-    font-size: 30px;
+    font-size: 28px;
     margin-top: -2.5px;
   }
 
   .btn {
-    font-size: 22px; 
+    font-size: 20px; 
     padding: 10px 15px;
     letter-spacing: 4px;
   }
