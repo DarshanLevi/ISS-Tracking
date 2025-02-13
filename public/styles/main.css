@@ -61,6 +61,13 @@ p.zone_id {
   margin-bottom: 10px;
 }
 
+.high-1 {
+  color: rgb(207, 162, 255);
+}
+.high-2 {
+  color: rgb(207, 162, 255);
+}
+
 .btn {
   margin: 15px;
   border-radius: 7%;
@@ -87,16 +94,17 @@ p.zone_id {
   }
 
   .lat {
-    font-size: 27px; 
+    font-size: 19px; 
+    margin-bottom: -2.5px;
   }
 
   p.zone_id {
     font-size: 50px; 
-  }
+  } 
 
   .code {
     font-size: 38px;
-    margin-top: -5px;
+    margin-top: -2.5px;
   }
 
   .btn {
