@@ -32,6 +32,28 @@
     <%= country_code %>
   </p>
 
+  <div id="map" style="width: 100%; height: 400px;"></div>
+
+  <script>
+    function initMap() {
+      const issLocation = { lat: parseFloat("<%= lat_id %>"), lng: parseFloat("<%= lon_id %>") };
+      console.log(issLocation);
+      
+      const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 3,
+          center: issLocation,
+      });
+
+      const marker = new google.maps.Marker({
+          position: issLocation,
+          map: map,
+      });
+    }
+  </script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=<%=googleMapsApiKey%>&callback=initMap" async defer></script>
+
+
   <form action="/" method="GET">
     <button type="submit" class="btn">Refresh</button>
   </form>
