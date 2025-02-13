@@ -37,10 +37,12 @@
   <script>
     function initMap() {
       const issLocation = { lat: parseFloat("<%= lat_id %>"), lng: parseFloat("<%= lon_id %>") };
-      console.log(issLocation);
-      
+
+      const countryCode = "<%= country_code %>";
+      const zoomLevel = countryCode === "Somewhere over the ocean" ? 1.5 : 4;
+
       const map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 4,
+          zoom: zoomLevel,
           center: issLocation,
       });
 
