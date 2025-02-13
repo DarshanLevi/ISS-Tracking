@@ -8,7 +8,7 @@
 
 
 body {
-  background-color: rgb(0, 0, 0) !important;
+  background-color: rgb(0, 0, 0);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,7 +33,6 @@ body {
 
 .first {
   color: rgb(235, 242, 255);
-  padding-bottom: 2rem;
   font-size: 44px;
 }
 
@@ -49,9 +48,11 @@ body {
 
 p.zone_id {
   color: rgb(245, 239, 231);
-  font-size: 44px;
+  font-size: 64px;
   font-weight: 500;
-  margin-bottom: -10px;
+  margin-top: -7px;
+  margin-bottom: -12px;
+  padding: 2rem;  
 }
 
 .code {
@@ -71,23 +72,22 @@ p.zone_id {
   letter-spacing: 3px;
 }
 
-@media screen and (max-width: 450px) and (max-height: 932px) {
+@media (max-width: 500px)  { 
   body {
-    padding-top: 3rem;
-    font-size: 1.2em; 
+    padding-top: 0rem;
+    height: 87vh;
   }
 
   .first {
-    font-size: 50px; 
-    padding-bottom: 2rem;
+    font-size: 40px; 
   }
 
   .highlight {
-    font-size: 52px; 
+    font-size: 40px; 
   }
 
   .lat {
-    font-size: 32px; 
+    font-size: 27px; 
   }
 
   p.zone_id {
@@ -95,11 +95,12 @@ p.zone_id {
   }
 
   .code {
-    font-size: 42px;
+    font-size: 38px;
+    margin-top: -5px;
   }
 
   .btn {
-    font-size: 24px; 
+    font-size: 22px; 
     padding: 10px 15px;
     letter-spacing: 4px;
   }
