@@ -17,7 +17,7 @@ body {
   font-family: "Bebas Neue", serif;
   font-weight: 400;
   text-align: center;
-  letter-spacing: 6px;
+  letter-spacing: 4px;
   
 }
 
@@ -28,7 +28,7 @@ body {
   justify-content: center;
   width: 100%;
   max-width: 600px; 
-  padding: 20px;
+
 }
 
 .first {
@@ -44,21 +44,21 @@ body {
 .lat {
   color: rgb(255, 165, 0);
   font-size: 27px;
+  margin-top: -10px;
 }
 
 p.zone_id {
   color: rgb(245, 239, 231);
   font-size: 64px;
   font-weight: 500;
-  margin-top: -7px;
-  margin-bottom: -12px;
-  padding: 2rem;  
+  margin: -20px;
+
 }
 
 .code {
   font-size: 36px;
   color: rgb(207, 162, 255);
-  margin-bottom: 20px;
+
 }
 
 .high-1 {
@@ -66,6 +66,10 @@ p.zone_id {
 }
 .high-2 {
   color: rgb(207, 162, 255);
+}
+.map-style {
+  width: 100%;
+  height: 300px;
 }
 
 .btn {
@@ -95,16 +99,17 @@ p.zone_id {
 
   .lat {
     font-size: 17px; 
-    margin-bottom: -2.5px;
+
   }
 
   p.zone_id {
     font-size: 30px; 
+    margin-top: 6px;
   } 
 
   .code {
-    font-size: 28px;
-    margin-top: -2.5px;
+    font-size: 24px;
+
   }
 
   .btn {
