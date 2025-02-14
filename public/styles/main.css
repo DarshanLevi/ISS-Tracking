@@ -15,7 +15,6 @@ body {
   height: 100vh;
   box-sizing: border-box;
   font-family: "Bebas Neue", serif;
-  font-weight: 400;
   text-align: center;
   letter-spacing: 4px;
   
@@ -52,7 +51,10 @@ p.zone_id {
   font-size: 64px;
   font-weight: 500;
   margin: -20px;
-
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  max-width: 90vw;
 }
 
 .code {
@@ -73,7 +75,7 @@ p.zone_id {
 }
 
 .btn {
-  margin: 15px;
+  margin: 10px;
   border-radius: 7%;
   border-style: none;
   padding: 5px 10px;
@@ -81,6 +83,12 @@ p.zone_id {
   cursor: pointer;
   font-family: "Bebas Neue", serif;
   letter-spacing: 3px;
+}
+
+.facts {
+  font-size: 24px;
+  color: antiquewhite;
+  margin: 18px;
 }
 
 @media (max-width: 500px)  { 
@@ -116,5 +124,10 @@ p.zone_id {
     font-size: 20px; 
     padding: 10px 15px;
     letter-spacing: 4px;
+  }
+  .facts {
+    font-size: 24px;
+    color: antiquewhite;
+    margin: 12px;
   }
 }
