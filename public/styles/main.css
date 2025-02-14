@@ -33,6 +33,7 @@ body {
 .first {
   color: rgb(235, 242, 255);
   font-size: 44px;
+  margin-top: 17px;
 }
 
 .highlight {
@@ -58,17 +59,19 @@ p.zone_id {
 }
 
 .code {
-  font-size: 36px;
+  font-size: 35px;
   color: rgb(207, 162, 255);
-
+  margin: 14px;
 }
 
 .high-1 {
   color: rgb(207, 162, 255);
 }
+
 .high-2 {
   color: rgb(207, 162, 255);
 }
+
 .map-style {
   width: 100%;
   height: 300px;
@@ -76,6 +79,7 @@ p.zone_id {
 
 .btn {
   margin: 10px;
+  margin-top: 5px;
   border-radius: 7%;
   border-style: none;
   padding: 5px 10px;
@@ -89,6 +93,7 @@ p.zone_id {
   font-size: 24px;
   color: antiquewhite;
   margin: 18px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 500px)  { 
@@ -126,7 +131,7 @@ p.zone_id {
     letter-spacing: 4px;
   }
   .facts {
-    font-size: 24px;
+    font-size: 18px;
     color: antiquewhite;
     margin: 12px;
   }
