@@ -1,0 +1,41 @@
+🌍 Find-ISS
+Track the real-time location of the International Space Station (ISS) on an interactive Google Map. This web app fetches live ISS coordinates and displays them with country details.
+
+🚀 Features
+✅ Live ISS Tracking – Fetch real-time latitude & longitude from the ISS API.
+✅ Google Maps Integration – Visualize ISS location on a dynamic map.
+✅ Country Detection – Converts coordinates into country names.
+✅ Smart Zoom – Adjusts zoom level if ISS is over the ocean.
+✅ Auto Refresh – Click a button to update the ISS position.
+✅ Secure API Keys – Uses .env to keep keys safe.
+
+🛠️ Technologies Used
+Node.js & Express.js – Backend framework.
+EJS – Templating engine.
+Axios – Fetch external API data.
+Google Maps API – Display map & markers.
+dotenv – Secure API keys.
+CSS & HTML – Styled frontend.
+Render (Hosting) – Deploy the app online.
+
+🔧 Installation & Setup
+1️⃣ Clone the repository
+git clone https://github.com/your-username/Find-ISS.git
+cd Find-ISS
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Set up environment variables
+Create a .env file and add:
+GOOGLE_MAPS_API_KEY=your_api_key_here
+
+4️⃣ Run the app
+npm start
+
+5️⃣ Open in browser
+Visit http://localhost:3000/ to see the ISS tracking live!    
+
+🌍 API References
+Where The ISS At API – Provides real-time ISS location.
+Google Maps API – Renders the map.
