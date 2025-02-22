@@ -9,6 +9,10 @@ dotenv.config();
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 
+app.get("/description", (req,res)=> {
+  res.render("description")
+})
+
 app.get("/", async (req, res) => {
   try {
 

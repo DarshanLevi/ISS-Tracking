@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    background-color: rgb(0, 0, 0) !important;
+}
+
+.full-style {
+  color: white;
+  font-family: "Bebas Neue", serif;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+p{
+    font-size: 28px;
+}
+
+.ul-css {
+    font-size: 25px;
+}
+
+.span-1 {
+    color: rgb(244, 172, 39);
+}
+
+.span-2 {
+    color: rgb(207, 162, 255);
+}
+
+.span-3 {
+    color: rgb(89, 149, 205);
+}
