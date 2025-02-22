@@ -9,7 +9,6 @@ body{
   color: white;
   font-family: "Bebas Neue", serif;
   letter-spacing: 2px;
-  font-size: 20px;
 }
 
 p{
@@ -30,4 +29,22 @@ p{
 
 .span-3 {
     color: rgb(89, 149, 205);
+}
+
+@media (max-width: 500px)  { 
+    p{
+        font-size: 15px;
+    }
+    
+    .ul-css {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+
+    h1{
+        font-size: 23px;
+    }
 }

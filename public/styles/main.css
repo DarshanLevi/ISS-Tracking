@@ -135,4 +135,8 @@ p.zone_id {
     color: antiquewhite;
     margin: 12px;
   }
+
+  .desc-css{
+    font-size: 15px;
+  }
 }
